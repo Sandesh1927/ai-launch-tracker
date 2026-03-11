@@ -5,14 +5,10 @@
 
 const CACHE_NAME = 'ai-launch-tracker-v1';
 const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/src/main.js',
-  '/src/news-fetcher.js',
-  '/src/notifications.js',
-  '/src/youtube.js',
-  '/manifest.json'
+  './',
+  'index.html',
+  'style.css',
+  'manifest.json'
 ];
 
 // Install — cache static assets

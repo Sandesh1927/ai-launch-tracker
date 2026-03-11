@@ -13,7 +13,7 @@ export function getSettings() {
   const defaults = {
     browserNotifications: false,
     emailNotifications: false,
-    email: 'sandeshsolankure@gmail.com',
+    email: '',
     emailFrequency: 'daily',
     emailjsService: '',
     emailjsTemplate: '',

@@ -1399,3 +1399,40 @@ a:hover {
     display: none;
   }
 }
+
+/* ===========================
+   Footer & Credit
+   =========================== */
+#app-footer {
+  max-width: 1400px;
+  margin: 60px auto 0;
+  padding: 40px 24px;
+  border-top: 1px solid var(--border-glass);
+  text-align: center;
+}
+
+.footer-credit {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.dev-name {
+  font-weight: 800;
+  font-size: 1.1rem;
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 2px solid var(--accent-1);
+}
+
+.footer-sub {
+  margin-top: 12px;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
