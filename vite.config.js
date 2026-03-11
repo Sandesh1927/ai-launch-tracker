@@ -1,8 +1,6 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
-  server: {
-    port: 3000,
-    open: true
-  }
-});
+  // Use relative base path so it works regardless of the GitHub repository name
+  base: './',
+})
